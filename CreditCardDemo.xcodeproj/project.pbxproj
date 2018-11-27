@@ -12,6 +12,8 @@
 		F27FCF3F2072A13B00F3BE7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27FCF3D2072A13B00F3BE7D /* Main.storyboard */; };
 		F27FCF412072A13B00F3BE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27FCF402072A13B00F3BE7D /* Assets.xcassets */; };
 		F27FCF442072A13B00F3BE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27FCF422072A13B00F3BE7D /* LaunchScreen.storyboard */; };
+		F27FCF4C2072A29000F3BE7D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FCF4B2072A29000F3BE7D /* DetailViewController.swift */; };
+		F27FCF4E2072BD4E00F3BE7D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F27FCF4D2072BD4D00F3BE7D /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F27FCF402072A13B00F3BE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27FCF432072A13B00F3BE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F27FCF452072A13B00F3BE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27FCF4B2072A29000F3BE7D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F27FCF4D2072BD4D00F3BE7D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		F27FCF382072A13B00F3BE7D /* CreditCardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F27FCF4D2072BD4D00F3BE7D /* image.png */,
 				F27FCF392072A13B00F3BE7D /* AppDelegate.swift */,
 				F27FCF3B2072A13B00F3BE7D /* ViewController.swift */,
 				F27FCF3D2072A13B00F3BE7D /* Main.storyboard */,
 				F27FCF402072A13B00F3BE7D /* Assets.xcassets */,
 				F27FCF422072A13B00F3BE7D /* LaunchScreen.storyboard */,
 				F27FCF452072A13B00F3BE7D /* Info.plist */,
+				F27FCF4B2072A29000F3BE7D /* DetailViewController.swift */,
 			);
 			path = CreditCardDemo;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 				F27FCF442072A13B00F3BE7D /* LaunchScreen.storyboard in Resources */,
 				F27FCF412072A13B00F3BE7D /* Assets.xcassets in Resources */,
 				F27FCF3F2072A13B00F3BE7D /* Main.storyboard in Resources */,
+				F27FCF4E2072BD4E00F3BE7D /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27FCF4C2072A29000F3BE7D /* DetailViewController.swift in Sources */,
 				F27FCF3C2072A13B00F3BE7D /* ViewController.swift in Sources */,
 				F27FCF3A2072A13B00F3BE7D /* AppDelegate.swift in Sources */,
 			);
